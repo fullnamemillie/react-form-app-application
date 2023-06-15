@@ -1,0 +1,27 @@
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputFile + .label {
+  font-size: 18px;
+  display: inline;
+  cursor: pointer;
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+  background-color: crimson;
+}
+
+.label {
+    text-align: center;
+    width: 388px;
+}
+
+.label:hover {
+  background-color: rgb(202, 19, 55);
+}
